@@ -48,7 +48,7 @@ function isCarColorMatching(car, color) {
 }
 // console.log(isCarColorMatching(cars[1], "Blue")); // Outputs: false
 
-// 3) Write a `addCar` function that accepts an array of car objects `cars` and the properties of a car,  create a new car object and add it to the array of cars, and return the updated array
+// 3) Write a `addCar` function that accepts an array of car hi objects `cars` and the properties of a car,  create a new car object and add it to the array of cars, and return the updated array
 function addCar(cars, id, make, model, year, color) {
   const newCar = {
     id: id,
